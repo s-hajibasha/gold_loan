@@ -1,0 +1,8 @@
+#!/bin/bash
+ec2-user
+sudo -i
+cd /var/www/html
+echo "welcome to happy home">index.html
+service httpd restart
+
+
